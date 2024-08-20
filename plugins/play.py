@@ -1,5 +1,4 @@
-import random
-import asyncio, os, yt_dlp, re, textwrap, aiofiles, aiohttp, numpy as np
+import asyncio, random, os, yt_dlp, re, textwrap, aiofiles, aiohttp, numpy as np
 from PIL import (Image, ImageDraw, ImageEnhance, ImageFilter,
                  ImageFont, ImageOps)
 from youtubesearchpython.__future__ import VideosSearch
@@ -49,7 +48,7 @@ ydl_opts = {
     "quiet": True,
     "no_warnings": True,
     "prefer_ffmpeg": True,
-    "cookiefile": cookies(),
+    "cookiefile": cookies()
 } 
 async def download(videoid: str) -> str:
     xyz = os.path.join("downloads", f"{videoid}.m4a")
