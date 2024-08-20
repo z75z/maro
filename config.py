@@ -7,15 +7,10 @@ import requests
 from utils import get_restarted
 from pyrogram import Client, enums
 from pytgcalls import PyTgCalls
-super_sudoers: List[int] = [5964879906, 5964879906]
-from dotenv import load_dotenv
+super_sudoers: List[int] = [833360381, 1818734394]
 
-load_dotenv()
 
 ####################################################################################
-
-
-
 
 # start
 wr = get_restarted()
@@ -46,16 +41,16 @@ if wr is None:
 ####################################################################################
 
 # Token bot
-TOKEN = getenv("TOKEN")
-SESSION = getenv("SESSION")
+TOKEN = getenv("TOKEN", "7155835267:AAHz2NyrX1O4dyRgjNxMaJVcoWEMGg9EY_w")
+SESSION = getenv("SESSION", "AgDFycsAeVHkKExrE_xJEUMTwyg9z1CzpoZG73D4IsbkwZAfVOtqlwU_8Q8cULOYVuqxfZso4k6k-f3ANnlNBKdlf5UtOP6sp9W3Nxae_S8RJQ7dK0t5K6eDALv-EsYnuxepv2Vjc6K_gJL-XYu7loX5me2x9GNfgl9zXl7B_M66JLZLYecfoeo8SLMPYE8gNXBXobXqU1no0mrfVUV0jbK2o-6U6ZIOpcfmlww5lrKdibyuvV-LTGft3BGXmxCmB3Pubd9Nwz9jebooer5ZT83u3qrIMpKEvO6Iy1gs5XeFs5FeYOc1gLkoxr4l6EyHgyhht1Vk3fL0fnuYUuLfom0LTpdtfwAAAABsZ686AA")
 # Your API ID and Hash from https://my.telegram.org/apps
-API_ID = 7634570
-API_HASH = "49265e23e8cb8218ac89d60777f280a6"
+API_ID = 12962251
+API_HASH = "b51499523800add51e4530c6f552dbc8"
 
 # Chat used for logs
 log_chat = 6367618993
 # Sudoers and super sudoers
-sudoers = list(map(int, getenv("sudoers").split()))
+sudoers = list(map(int, getenv("sudoers", "833360381").split()))
 sudoers += super_sudoers
 developer = []
 developer += sudoers
