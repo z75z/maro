@@ -1,0 +1,34 @@
+{
+    "name": " 𝗦𝗼𝘂𝗿𝗰𝗲 𝗧𝗵𝗲𝗼 ",
+    "description": "〔 سـورس ثيو 𝗧𝗵𝗲𝗼 〕افضـل سـورسـات  ميوزك و حمايه العربيـة : › عربـي بالكـامل › تحديثـات متواصـله › فـارات تلقـائيـه بسهولـه〔 حصريـاً 〕- مطـور السـورس : مرسليو ",
+    "repository": "https://github.com/SourceTheo",
+    "logo": "https://graph.org/file/e66caa3ae1f673b2e7c9e.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "mongodb",
+    "Group-Manager-bot",
+    "pyrogram"
+    ],
+    "website": "https://t.me/Source_Theo",
+    "success_url": "https://t.me/OO_UB",
+    "stack": "container",
+    "env": {
+        "TOKEN": {
+            "description": "ضع توكن بوتك  @BotFather",
+            "required": true
+        },
+        "SESSION": {
+            "description": "حط جلسة البايروجرام",
+            "required": true
+        },
+        "sudoers": {
+            "description": "حط ايدي مطور البوت",
+            "required": true
+        }
+    }
+}
+
+
+
